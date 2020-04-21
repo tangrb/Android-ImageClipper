@@ -2,7 +2,7 @@
 简单、高效、灵活的Android图片裁剪框架。
 
 # 使用参考
-可以参考 app模块中的MainActivity和imageclipper模块中的ImageClipperActivity。
+可以参考 app 模块中的 MainActivity 和 imageclipper 模块中的 ImageClipperActivity。
 
 
 # 使用方式1：使用ImageClipperActivity
@@ -78,8 +78,7 @@ ImageClipView.InputCondition condition = new ImageClipView.InputCondition.Builde
     .setRawBitmap(rawBitmap = BitmapFactory.decodeFile(imgPath))
     .build();
 
-//imageClipView是使用ImageClipView的实例，
-//使用ImageClipView是一个视图控件，直接继承自View
+//imageClipView是使用ImageClipView的实例，ImageClipView是一个视图控件，直接继承自View
 imageClipView.onCreate(condition, 0);
 ```
 
