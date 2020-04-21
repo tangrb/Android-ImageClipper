@@ -1,0 +1,3 @@
+rootProject.name='ImageClipperApp'
+include ':app'
+include ':imageclipper'
